@@ -14,11 +14,13 @@
     font-family: 'Anton', sans-serif;   
     margin: 0;
     padding: 0;
+    text-align: center;
 }
 
 .explain{
     color: white;
     font-size: 20px;
+    padding:0px 10px 0px 10px;
 }
 
 .explainCont{
@@ -46,3 +48,15 @@
     background-color: white;
     color: black;
 }
+
+@media screen and (max-width: 600px) {
+    .rootCont {
+        background-size: 200% 130%;
+    }
+    .head{
+        font-size: 80px;
+    }
+    .explain{
+        font-size: 18px;
+    }
+  }
