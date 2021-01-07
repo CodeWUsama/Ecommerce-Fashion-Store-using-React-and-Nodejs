@@ -32,7 +32,8 @@
 }
 
 .navList>.active {
-    color: #FAC564 !important;
+    color: white !important;
+    font-size: 18px;
 }
 
 .rootCont {
@@ -111,14 +112,14 @@
 .navLink{
     text-decoration: none;
     color:#FFFFFFB3;
-    font-size:18px;
+    font-size:16px;
     font-family: 'Poppins', sans-serif;
     font-weight: 400;
 }
 
 .navLink:hover{
     cursor: pointer;
-    color: #FAC564; 
+    color: white; 
     transition: all 400ms ease;
 }
 

@@ -6,8 +6,8 @@ export default function () {
     return (
         <div>
             <Home />
-            <NewArrivals />
-            <Products/>
+            {/* <NewArrivals />
+            <Products/> */}
         </div>
     )
 }

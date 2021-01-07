@@ -1,5 +1,48 @@
-.rootCont{
+@import url('https://fonts.googleapis.com/css2?family=Anton&display=swap');
+.rootCont {
     height: 100vh;
-    background-color: aqua;
-    padding: 100px;
+    background-image: url("./banner.jpg");
+    background-size: 100% 130%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.head {
+    color: white;
+    font-size: 130px;
+    font-family: 'Anton', sans-serif;   
+    margin: 0;
+    padding: 0;
+}
+
+.explain{
+    color: white;
+    font-size: 20px;
+}
+
+.explainCont{
+    margin-top: 80px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.viewButton{
+    margin-top: 40px;
+    width: 200px;
+    height: 60px;
+    background-color: transparent;
+    color: white;
+    border: 2px solid white;
+    font-weight: 900;
+    font-size: 20px;
+    transition: all 0.6s ease 0s;
+}
+
+.viewButton:hover{
+    cursor: pointer;
+    background-color: white;
+    color: black;
 }
